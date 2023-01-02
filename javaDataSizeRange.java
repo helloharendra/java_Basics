@@ -9,5 +9,7 @@ public class javaDataSizeRange{
         System.out.println("Max Range of short is  " + Short.MAX_VALUE);
         System.out.println("Max Range of FLOAT is  " + Float.MIN_VALUE);
         System.out.println("Max Range of FLOAT is  " + Float.MAX_VALUE);
+        System.out.println("Max Range of Char is  " + Character.MIN_VALUE);
+        System.out.println("Max Range of Char is  " + Character.MAX_VALUE);
     }
 }
