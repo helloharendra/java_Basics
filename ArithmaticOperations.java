@@ -1,12 +1,15 @@
 class ArithmaticOperations{
     public static void main(String[] args) {
-        int a=10,b=3;
+        int a=100,b=30;
         int c=a/b;
         float d=a/b;
-        int r=a%b;
+        double r= (double)a/b;
+
         System.out.println(c);
         System.out.println(d);
         System.out.println(r);
+
+
 
     }
 }
