@@ -20,6 +20,8 @@ class stringMethods{
          
         String str2="hellooharendra";
         System.out.println(str1 .equals(str2));
+        System.out.println(str1 .equalsIgnoreCase(str2));
+
 
 
 
