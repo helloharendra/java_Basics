@@ -9,8 +9,10 @@ class stringMethods{
         System.out.println(str1 .substring(6));
         System.out.println(str1 .substring(6,10));
         System.out.println(str1 .charAt(6));
-
         System.out.println(str1 .replace('h','n'));
+        System.out.println(str1 .startsWith("h"));
+        System.out.println(str1 .startsWith("h"));
+
 
 
 
