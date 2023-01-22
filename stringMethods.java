@@ -8,6 +8,8 @@ class stringMethods{
         System.out.println(str1 .trim());
         System.out.println(str1 .substring(6));
         System.out.println(str1 .substring(6,10));
+        System.out.println(str1 .replace('h','n'));
+
 
 
 
