@@ -6,6 +6,8 @@ class stringMethods{
         System.out.println(str1 .toUpperCase());
         System.out.println(str1 .toLowerCase());
         System.out.println(str1 .trim());
+        System.out.println(str1 .substring(6));
+
 
 
     }
