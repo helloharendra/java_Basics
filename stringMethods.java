@@ -13,6 +13,8 @@ class stringMethods{
         System.out.println(str1 .startsWith("h"));
         System.out.println(str1 .startsWith("h"));
         System.out.println(str1 .endsWith("a"));
+        System.out.println(str1 .indexOf("n"));
+
 
 
 
