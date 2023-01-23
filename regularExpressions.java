@@ -8,6 +8,7 @@ public class regularExpressions {
         System.out.println(str1.matches(".")); // . matches only single characters else give false
         System.out.println(str2.matches(".")); // . matches only single characters else give false
         System.out.println(str3.matches(".")); // . matches only single characters else give false
+        System.out.println(str1.matches("[abcf]")); // . matches only single characters else give false
 
     }
     
