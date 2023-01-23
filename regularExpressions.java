@@ -10,7 +10,11 @@ public class regularExpressions {
         System.out.println(str1.matches("[abcf]")); // . matches only single characters else give false
 
         String str="a";
-        System.out.println(str.matches("\\w"));
+        System.out.println(str.matches("\\w")); // w works for both integer and character
+
+        String str4="4";
+        System.out.println(str4.matches("\\d"));
+
 
     }
     
