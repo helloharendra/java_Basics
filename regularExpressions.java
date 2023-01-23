@@ -19,17 +19,14 @@ public class regularExpressions {
         System.out.println();
 
         String str5="abcabcabaac";
-        String str6="abcABCabaac";
+        String str6="abcAB Cabaac";
 
         System.out.println(str5.matches("[abc]"));
         System.out.println(str5.matches("[abc]*")); 
         System.out.println(str6.matches("[abc]*")); 
 
- 
-
-
-
-
+        String str7="john@gmail.com";
+        System.out.println(str7.matches(".*@gmail.com")); 
 
     }
     
