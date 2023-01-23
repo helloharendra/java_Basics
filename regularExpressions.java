@@ -11,9 +11,13 @@ public class regularExpressions {
 
         String str="a";
         System.out.println(str.matches("\\w")); // w works for both integer and character
+        System.out.println(str.matches("\\W")); // w works for both integer and character
 
         String str4="4";
         System.out.println(str4.matches("\\d"));
+        System.out.println(str4.matches("\\D"));
+
+
 
 
     }
