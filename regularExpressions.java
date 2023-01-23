@@ -19,8 +19,12 @@ public class regularExpressions {
         System.out.println();
 
         String str5="abcabcabaac";
+        String str6="abcABCabaac";
+
         System.out.println(str5.matches("[abc]"));
         System.out.println(str5.matches("[abc]*")); 
+        System.out.println(str6.matches("[abc]*")); 
+
  
 
 
